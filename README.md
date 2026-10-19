@@ -1,15 +1,43 @@
-# Pokédex
+<h1 align="center">Pokédex</h1>
 
-Uma Pokédex simples feita com HTML, CSS e JavaScript. Consulte Pokémon pelo nome ou número e veja suas informações e imagem usando a [PokéAPI](https://pokeapi.co/).
+<p align="center">
+  Uma Pokédex desenvolvida com HTML, CSS e JavaScript para consultar Pokémon por nome ou número a partir de uma API pública.
+</p>
 
-## Funcionalidades
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-- Busca de Pokémon por nome ou número.
-- Navegação entre Pokémon com os botões **Prev** e **Next**.
-- Exibição do nome, número e imagem do Pokémon.
-- Mensagem de erro quando a consulta não encontra um Pokémon.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-## Como executar
+<br>
+
+<p align="center">
+  <img alt="Projeto Pokédex" src="./src/preview.png">
+</p>
+
+## 🚀 Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+- PokéAPI
+
+## 💻 Projeto
+
+O projeto consiste em uma Pokédex desenvolvida para consultar e visualizar informações de Pokémon de forma simples e intuitiva.
+
+A aplicação permite pesquisar o Pokémon pelo nome ou número, visualizar sua imagem e navegar entre diferentes Pokémon utilizando os botões **Prev** e **Next**. Também apresenta uma mensagem de erro quando a consulta não encontra um Pokémon.
+
+As informações são obtidas por meio da [PokéAPI](https://pokeapi.co/), sendo necessária uma conexão com a internet para realizar as consultas.
+
+- [Visite o projeto online]()
+
+### Como executar
 
 1. Clone este repositório:
 
@@ -18,31 +46,18 @@ Uma Pokédex simples feita com HTML, CSS e JavaScript. Consulte Pokémon pelo no
    ```
 
 2. Abra a pasta do projeto no VS Code.
-3. Abra `index.html` no navegador. Também é possível iniciar a página com a extensão **Live Server**.
+3. Abra o arquivo `index.html` no navegador ou utilize a extensão Live Server.
 
-É necessário ter conexão com a internet para consultar a PokéAPI.
+## 📚 Referência
 
-## Tecnologias
+O desenvolvimento deste projeto teve como referência o vídeo tutorial disponível no YouTube:
 
-- HTML5
-- CSS3
-- JavaScript
-- [PokéAPI](https://pokeapi.co/)
+- [Vídeo utilizado](https://www.youtube.com/watch?v=SjtdH3dWLa8)
 
-## Estrutura do projeto
+📝 Licença
 
-```text
-Pokedex/
-├── index.html
-├── script.js
-├── style.css
-└── src/
-    ├── pokebola.ico
-    ├── pokedex.png
-    ├── pokemon.png
-    └── search.png
-```
+Esse projeto está sob a licença MIT.
 
-## Autor
+---
 
-[Helena Lima](https://github.com/Helenapl145)
+Feito com ♥ by Helena Lima
