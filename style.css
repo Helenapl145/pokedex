@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    text-align: center;
+    min-height: 100vh;
+    background-color: #c8f1fc;
+    overflow-y: hidden;
+}
+
+header img{
+    height: 50px;
+    display: flex;
+    margin: 15px;
+}
+
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
+.imagePokemon{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
+.pokemon_data{
+    position: absolute;
+    bottom: 42%;
+    left: 60%;
+    transform: translate(-50%, 20%);
+    font-size: 1.2rem;
+}
+
+.numberPokemon{
+    font-weight: 600;
+    color: #555555;
+}
+
+.namePokemon{
+   text-transform: capitalize;
+   color: #302f2f;
+}
+
+.form{
+    position: absolute;
+    bottom: 28%;
+    left: 48%;
+    transform: translate(-50%, 20%);
+    display: flex;
+
+}
+
+.inputPokemon{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1.5px solid #000;
+    box-shadow: -3px 4px #363636;
+    margin-right: 10px;
+}
+
+.btnPokemonSearch{
+    background-color: #00af5d;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: -3px 4px #035a31;
+    border: 1.5px solid #000;
+    font-weight: 600;
+}
+
+.btnPokemon{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+.btnPokemon button{
+    background-color: #555555;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: -3px 4px #363636;
+    margin-right: 20px;
+    border: 1.5px solid #000;
+    font-weight: 600;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0244a8;
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+}

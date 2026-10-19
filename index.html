@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./src/pokebola.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="./src/pokemon.png" class="pokemon" alt="Logo do Pokémon">
+    </header>
+
+    <main>
+        <img id="imagePokemon" class="imagePokemon" src="#" alt="Imagem de um pokémon">
+        <h1 class="pokemon_data" id="pokemon_data">
+            <span id="numberPokemon" class="numberPokemon"></span> 
+            <span id="namePokemon" class="namePokemon"></span>
+        </h1>
+        
+        <form class="form">
+            <input type="text" id="inputPokemon" class="inputPokemon" placeholder="Nome ou Número" required>
+            <button type="submit" class="btnPokemonSearch" id="btnPokemonSearch"><img src="./src/search.png" alt="Ícone de busca" srcset=""></button>
+        </form>
+
+        <div class="btnPokemon">
+            <button id="btnPokemonBack" >Prev <</button>
+            <button id="btnPokemonNext">Next ></button>
+        </div>
+
+        <img src="./src/pokedex.png"  class="pokedex" id="pokedex" alt="Imagem de uma pokedex">
+    </main>
+
+    <footer>
+        <p class="footer">&copy 2026 by  <a href="https://github.com/Helenapl145" target="_blank">Helena Lima</a></p>
+    </footer>
+</body>
+</html>
