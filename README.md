@@ -52,7 +52,7 @@ As informações são obtidas por meio da [PokéAPI](https://pokeapi.co/), sendo
 
 O desenvolvimento deste projeto teve como referência o vídeo tutorial disponível no YouTube:
 
-- [Vídeo utilizado](https://www.youtube.com/watch?v=SjtdH3dWLa8)
+- [Vídeo utilizado](https://youtu.be/SjtdH3dWLa8?si=bgn70N30JhFFcGdc)
 
 📝 Licença
 
