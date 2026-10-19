@@ -35,7 +35,7 @@ A aplicação permite pesquisar o Pokémon pelo nome ou número, visualizar sua 
 
 As informações são obtidas por meio da [PokéAPI](https://pokeapi.co/), sendo necessária uma conexão com a internet para realizar as consultas.
 
-- [Visite o projeto online]()
+- [Visite o projeto online](https://helenapl145.github.io/pokedex/)
 
 ### Como executar
 
